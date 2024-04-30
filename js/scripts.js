@@ -8,17 +8,13 @@
 
 console.log('Hello')
 
-document.getElementById('nextPageButton').onclick = function(){
-    window.location.href = 'page1.html'
+document.getElementById('nextPageButton').onclick = function () {
+	window.location.href = 'Q1.html'
 }
 
-document.getElementById('goSpecific').onclick = function(){
-    window.location.href = 'page4.html'
+function goBack() {
+	window.history.back();
 }
-
-function goBack(){
-    window.history.back();
-}
-function returnHome(){
-    window.location.href = 'index.html';
+function returnHome() {
+	window.location.href = 'index.html';
 }
